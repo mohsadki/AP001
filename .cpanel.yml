@@ -1,5 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/public_html/ap001
+    - export DEPLOYPATH=/public_html/ap001/
+    - /bin/mkdir $DEPLOYPATH/aaaaa
     - /bin/cp auth.php $DEPLOYPATH
