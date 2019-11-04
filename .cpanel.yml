@@ -3,4 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/geniesys/public_html
     - /bin/mkdir $DEPLOYPATH/ap001/
-    - /bin/cp auth.php $DEPLOYPATH
+    - /bin/cp auth.php $DEPLOYPATH/ap001/
