@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/geniesys/public_html/ap001/
-    - /bin/mkdir $DEPLOYPATH/aaaaa
+    - export DEPLOYPATH=/home/geniesys/public_html
+    - /bin/mkdir $DEPLOYPATH/ap001/
     - /bin/cp auth.php $DEPLOYPATH
